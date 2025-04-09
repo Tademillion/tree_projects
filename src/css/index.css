@@ -89,7 +89,7 @@ border: none;
 
 }
 .maincontent{
-    background-color: white;
+    background-color: #fff;
     flex: 1;
     height: 100%;
 }
@@ -112,4 +112,70 @@ border: none;
     height: 3rem;
     width: 2rem;
     margin-right: 1.5rem;
+}
+/* ///////////////////////////////////////////////////////// main styling */
+.content-images{
+     display: flex;
+     justify-content: space-evenly;
+     flex: 1;
+     flex-wrap: nowrap;
+}
+.main-header-images{
+    flex: 1;
+   &:not(:last-child){
+    margin-right: .1rem;
+   }
+}
+.main-header{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    margin-top: 0;
+     height: 5rem;
+    color: black;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    justify-content: space-between;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.0499); /* Shadow properties */
+    border-radius: 0;
+}
+.stars{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.rating-icons{
+    height: 3rem;
+    width: 2rem;
+    fill: red;  
+}
+.stars{
+    margin-left: -20rem;
+}
+
+/* //////////////////////////////////////////////////////////vote */
+.locations{
+
+}
+.location-icon{
+    display: flex;
+    align-items: center;
+    color: red;
+    
+}
+.location-text{
+    border-bottom: 2px solid red;
+
+}
+.location-icons{
+    height: 2rem;
+    width: 3rem;
+    fill: red;
+}
+/* //////////////////////////////////////////////////////////vote */
+.votes{
+padding: 1rem;
+background-color: red;
+height: 100%;
+align-items: center;
+color: rgb(235, 255, 205)
 }
