@@ -102,10 +102,10 @@ border: none;
       text-transform: uppercase;
       padding: 1.3rem;
       text-decoration: none;
-      &:hover{
+      /* &:hover{
         background-color: red;
         transition: all .4s;
-      }
+      } */
 }
 
 .sidebar-icons{
