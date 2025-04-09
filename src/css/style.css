@@ -1,0 +1,107 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+/* Container styles */
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+/* Header styles */
+.header {
+    display: flex;
+    align-items: center;
+    background-color: #343a40;
+    padding: 10px 20px;
+    color: white;
+    height: 60px; /* Standard height for the header */
+}
+
+/* Logo styles */
+.logo {
+    height: 40px; /* Adjust as needed */
+}
+
+/* Search form styles */
+.search-form {
+    display: flex;
+    align-items: center;
+    flex: 1; /* Allow the form to take available space */
+    margin: 0 10px; /* Add margin for spacing */
+    justify-content: center;
+}
+
+.search-input {
+    padding: 5px;
+    border: none;
+    border-radius: 4px 0 0 4px; /* Rounded corners */
+    flex: 0 0 50%; /* Take all available width */
+}
+
+.search-button {
+    background-color: #495057;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 0 4px 4px 0; /* Rounded corners */
+    cursor: pointer;
+}
+.search-button svg {
+    fill: white;
+    width: 16px; /* Smaller icon size */
+    height: 16px; /* Smaller icon size */
+    
+}
+/* User navigation styles */
+.user-nav {
+    display: flex;
+    align-items: center;
+     justify-content: flex-start;
+   
+}
+.user-nav-icon-box {
+    position: relative;
+    margin-left: 20px;
+}
+
+.user-nav-icon-box svg {
+    width: 20px; /* Smaller icon size */
+    height: 20px; /* Smaller icon size */
+}
+
+.user-nav-notification {
+    position: absolute;
+    top: -5px;
+    right: -10px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 2px 6px;
+    font-size: 12px;
+}
+
+/* Content styles */
+.content {
+    display: flex;
+    flex: 1;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: #ced4da;
+    padding: 20px;
+}
+
+.maincontent {
+    flex: 1;
+    background-color: #ffffff;
+    padding: 20px;
+}

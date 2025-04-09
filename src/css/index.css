@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+}
+.container{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+}
+.header{
+    display: flex;
+    height: 60px;
+    background-color: #343a40;
+     align-items: center;
+      padding: 10px 20px;
+}
+.logo{
+    height: 50px;
+    margin-left: 0;
+}
+.search-form{
+    display: flex;
+    align-items: center;
+    /* background-color: black; */
+    flex: 1;
+    justify-content: center;
+    
+}
+.search-input{
+  height: 3rem;
+   width:70%;
+   border-radius: .4rem 0 0 .4rem;
+outline: none;
+border: none;
+}
+.search-icon {
+    height: 3rem;
+    width: 2rem;
+   fill: black;
+   /*  fill changes the color of the icons */
+}
+.search-button{
+    border-radius: 0 .4rem .4rem 0;
+    outline: none;
+    border: none;
+    background-color: #495057;
+   
+}
+.user-nav{
+    display: flex;
+    
+}
+
+.user-nav-icon-box{
+    height: 2rem;
+    fill: black;
+    position: relative;
+    margin-right: 2rem;
+}
+.chat-icon{
+    height: 3rem;
+    width: 2rem;
+}
+.user-nav-notification{
+    position: absolute;
+    top: -5px;
+    right: -10px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 2px 6px;
+    font-size: 12px;
+}
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////  side and main */
+.content{
+    display: flex;
+    flex: 1;
+}
+.sidebar{
+
+ background-color: #ced4da;
+ width: 25%;
+ height: 100%;
+
+}
+.maincontent{
+    background-color: white;
+    flex: 1;
+    height: 100%;
+   
+}
